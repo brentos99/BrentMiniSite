@@ -1,4 +1,5 @@
 interface Props {
+    href?: string;
     icon: React.ComponentType<React.ComponentProps<"svg">>;
 }
 
