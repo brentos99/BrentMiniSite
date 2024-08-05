@@ -66,7 +66,7 @@ function AboutMe() {
         <div className="mx-auto max-w-2xl lg:max-w-5xl">
           <div className="max-w-2xl">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Cloud Architect, Software Developer, and Life Saver.
+              Software Developer, Life Saver and Dad.
             </h1>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               Hello, I'm Brent, an individual based in Queensland, Australia. I have a keen interest in software development and cloud solutions. I am also a volutneer Life Saver on the Sunshine Coast.
