@@ -1,51 +1,5 @@
 import projects from "../config/projects";
 
-interface ProjectProps {
-  title: string;
-  description: string;
-  technologies: string[];
-  link?: string;
-  image?: string;
-}
-
-function ProjectCard({ title, description, technologies, link, image }: ProjectProps) {
-  return (
-    <div className="group relative flex flex-col items-start">
-      {image && (
-        <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-          <img src={image} alt="" className="h-8 w-8" />
-        </div>
-      )}
-      <h2 className="mt-4 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-        {link ? (
-          <a 
-            className="hover:text-teal-500 dark:hover:text-teal-400" 
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="absolute inset-0 z-20"></span>
-            {title}
-          </a>
-        ) : (
-          title
-        )}
-      </h2>
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{description}</p>
-      <div className="mt-2 flex flex-wrap gap-1">
-        {technologies.map((tech) => (
-          <span 
-            key={tech} 
-            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-700 dark:text-zinc-100"
-          >
-            {tech}
-          </span>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 export default function Projects() {
   return (
     <div id="projects" className="py-20 sm:py-28 bg-white dark:bg-zinc-900">
