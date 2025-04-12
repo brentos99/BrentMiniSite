@@ -19,3 +19,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Maintain strict TypeScript typing (strict mode enabled)
 - Keep components focused and small with clear separation of concerns
 - Follow existing naming patterns for new files and components
+
+## Styling
+- Using Tailwind CSS 4 
+  - please read the updated documentation https://tailwindcss.com/docs/theme
+  - no need for tailwind.config.js
+  - no need for postcss
+  

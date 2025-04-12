@@ -77,7 +77,7 @@ function AboutMe() {
                     Hello, I'm Brent, based in Queensland, Australia. I specialise in software development with expertise in cloud solutions and modern web technologies.
                   </p>
                   <p>
-                    With over 10 years of experience in the tech industry, I've developed applications and systems that solve real-world problems. My approach combines technical expertise with a focus on user experience and business value.
+                    With over 25 years of experience in the tech industry, I've developed applications and systems that solve real-world problems. My approach combines technical expertise with a focus on user experience and business value.
                   </p>
                   <p>
                     Outside of work, I'm a proud volunteer Life Saver on the Sunshine Coast, contributing to community safety and enjoying Queensland's beautiful beaches.

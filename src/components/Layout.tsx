@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 
+
 interface Props {
   children: React.ReactNode;
 }
@@ -16,8 +17,7 @@ export function Layout({ children }: Props) {
       <div className="relative">
       <Header />
       <div className="mt-16 sm:mt-32">
-
-        <div className="mt-16 sm:mt-20">{children}</div>
+        <div className="pb-16">{children}</div>
       </div>
       <Footer />
       </div>

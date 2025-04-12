@@ -1,3 +1,5 @@
+import projects from "../config/projects";
+
 interface ProjectProps {
   title: string;
   description: string;
@@ -6,7 +8,7 @@ interface ProjectProps {
   image?: string;
 }
 
-export function Project({ title, description, technologies, link, image }: ProjectProps) {
+function ProjectCard({ title, description, technologies, link, image }: ProjectProps) {
   return (
     <div className="group relative flex flex-col items-start">
       {image && (
@@ -57,22 +59,16 @@ export default function Projects() {
               I've worked on a variety of projects, from mobile apps to web applications. Here are a few that I'm proud of.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              <Project
-                title="SCC App"
-                description="Mobile application for Sunshine Coast Council focused on enhancing community engagement and service accessibility."
-                technologies={["React Native", "TypeScript", "AWS"]}
-              />
-              <Project
-                title="FebFifty"
-                description="A fitness challenge platform to encourage participants to run 50km in February while raising money for charity."
-                technologies={["React", "Node.js", "MongoDB"]}
-                link="https://febfifty.com"
-              />
-              <Project
-                title="AI Development Tools"
-                description="Suite of developer tools leveraging AI to streamline code review, documentation, and testing processes."
-                technologies={["Python", "OpenAI API", "DevOps"]}
-              />
+              {projects.map((project, index) => (
+                <ProjectCard
+                  key={index}
+                  title={project.title}
+                  description={project.description}
+                  technologies={project.technologies}
+                  link={project.link}
+                  image={project.image}
+                />
+              ))}
             </div>
           </div>
         </div>
