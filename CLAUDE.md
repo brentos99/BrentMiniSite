@@ -33,3 +33,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Support both light and dark mode with appropriate color variations
 - Use responsive design patterns with Tailwind's mobile-first approach
 - Maintain consistent spacing using Tailwind's spacing scale
+
+## Content
+- Write australian english - eg specializing should be specialising

@@ -8,30 +8,29 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Sunshine Coast App",
-    description: "A mobile application designed and developed for Sunshine Coast Council. Provides bin day reminders, disaster alerts, guided walks, service request tracking, and MyCouncil login. Improved backend processes and reduced customer service effort by up to 5 minutes per request.",
-    technologies: ["C#", ".NET MAUI", "Azure", "OpenAI API", "T1", "Confirm"],
+    title: "Sunshine Coast Council App",
+    description: "A cross-platform mobile application using .NET MAUI for iOS and Android that improves user accessibility and engagement by integrating with existing systems, providing bin day reminders, disaster alerts, service requests, and more.",
+    technologies: ["C#", ".NET MAUI", "Azure", "DevOps", "CI/CD", "TechnologyOne"],
     image: "/images/scc-app.png",
-    link: "https://www.sunshinecoast.qld.gov.au/Living-and-Community/Sunshine-Coast-Mobile-App",
+    link: "https://www.sunshinecoast.qld.gov.au/council/contact-council/site-help/scc-app",
   },
   {
-    title: "Utopia eCommerce Middleware",
-    description: "A multi-channel integration platform handling over $50M annually in online sales across Magento, BigCommerce, Myer, Amazon, eBay, The Iconic, and Apparel 21. Automated product syncing, sales ingest, inventory management, and return workflows.",
-    technologies: ["C#", ".NET", "Azure Functions", "REST APIs", "Apparel 21", "Magento", "Amazon MWS"],
+    title: "Brand Collective eCommerce Integration",
+    description: "A scalable cloud-native solution that seamlessly integrated enterprise systems with external platforms to enable real-time processing of orders, sales, customer and inventory updates across multiple channels including eBay, The Iconic, Amazon, and Myer.",
+    technologies: [".NET", "React", "Azure", "CosmosDB", "ServiceBus", "API Management", "Function Apps"],
     image: "/images/utopia.png",
   },
   {
-    title: "FebFifty",
-    description: "A fitness challenge platform encouraging people to run 50km in February while supporting mental health charities. Includes social tracking, GPS map uploads, user feeds, and custom profiles.",
-    technologies: ["React", "Vite", "Tailwind", "Node.js", "MongoDB", "Azure"],
-    link: "https://febfifty.com",
-    image: "/images/febfifty.png",
+    title: "TechnologyOne Property & Ratings",
+    description: "Led the complex software development for replacing the core enterprise system and integrating numerous council systems and business processes, including the custom-built Development.I application, to streamline operations and enhance data accuracy.",
+    technologies: [".NET", "C#", "SQL Server", "TechnologyOne", "Integration", "DevOps"],
+    image: "/images/t1.png",
   },
   {
-    title: "AI Development Tools",
-    description: "Internal developer tools powered by OpenAI for code summarization, review assistance, automated documentation, and code generation across council systems.",
-    technologies: ["Python", "C#", "OpenAI API", "LangChain", "Azure DevOps"],
-    image: "/images/ai-tools.png",
+    title: "Microsoft 365 Migration",
+    description: "Migrated over 3000 users from locally hosted Exchange 2007 including over 14TB of data to Microsoft 365, saving the business over $300k per annum while implementing modern collaboration tools.",
+    technologies: ["Microsoft 365", "Exchange", "Azure", "Cloud Migration", "PowerShell"],
+    image: "/images/m365.png",
   },
 ];
 
